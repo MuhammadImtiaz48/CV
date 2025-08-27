@@ -1,0 +1,47 @@
+name: cv_app
+description: "Muhammad Imtiaz Professional CV Flutter App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # URL Launcher for opening links and email
+  url_launcher: ^6.2.2
+  
+  # For better fonts and icons
+  google_fonts: ^6.1.0
+  
+  # For animations
+  flutter_animate: ^4.3.0
+  
+  # For local storage if needed
+  shared_preferences: ^2.2.2
+  
+  # For image handling
+  cached_network_image: ^3.3.1
+  
+  # Material Design Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add your profile image here
+  assets:
+    - assets/images/
+    
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/font.ttf
