@@ -10,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   
+  get: ^4.6.5
+  video_player: ^2.8.0
+  chewie: ^1.5.0
   # URL Launcher for opening links and email
   url_launcher: ^6.2.2
   
@@ -39,7 +42,8 @@ flutter:
   # Add your profile image here
   assets:
     - assets/images/
-    
+    - assets/vedios/
+
   # Custom fonts (optional)
   # fonts:
   #   - family: CustomFont
